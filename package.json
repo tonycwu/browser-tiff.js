@@ -1,7 +1,7 @@
 {
   "name": "browser-tiff.js",
   "description": "browser-tiff.js is a conversion of tiff.js, that nullified the require('crypto'), require('fs') inside the script when importing to web projects",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "tonycwu",
   "bugs": {
     "url": "https://github.com/tonycwu/browser-tiff.js/issues"
@@ -10,7 +10,8 @@
   "devDependencies": {},
   "files": [
     "tiff.js",
-    "tiff.min.js"
+    "tiff.min.js",
+    "browser-tiff.d.ts"
   ],
   "homepage": "https://github.com/tonycwu/browser-tiff.js",
   "keywords": [

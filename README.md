@@ -19,7 +19,7 @@ To:
 
 ## Example Usage in Angular
 
-1. Copy tiff.d.ts to your project root folder
+1. Copy browser-tiff.d.ts to your project root folder (This is for Typescript type definition)
 2. In your Angular component, use import like this:
 ```js
 import * as Tiff from 'browser-tiff.js';
