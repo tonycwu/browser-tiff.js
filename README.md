@@ -1,3 +1,35 @@
+# browser-tiff.js
+
+browser-tiff.js is a direct clone of tiff.js, but with require() methods removed, so it can work without errors during 'import' and compilation for web projects.
+
+Below are the only changes to tiff.min.js, basically Function.prototype() act like noop()
+
+From:
+
+```js
+... = require(...)
+
+```
+To:
+
+```js
+... = Function.prototype(...)
+
+```
+
+## Example Usage in Angular
+
+1. Copy tiff.d.ts to your project root folder
+2. In your Angular component, use import like this:
+```js
+import * as Tiff from 'browser-tiff.js';
+```   
+3. Use normally as describe in original tiff.js usage below.
+
+
+# Original tiff.js Readme below
+
+
 # tiff.js
 
 tiff.js is a port of the LibTIFF by compiling the LibTIFF C code with Emscripten.

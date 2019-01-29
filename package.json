@@ -1,10 +1,10 @@
 {
-  "name": "tiff.js",
-  "description": "tiff.js is a port of the LibTIFF by compiling the LibTIFF C code with Emscripten.",
+  "name": "browser-tiff.js",
+  "description": "browser-tiff.js is a conversion of tiff.js, that nullified the require('crypto'), require('fs') inside the script when importing to web projects",
   "version": "1.0.0",
-  "author": "seikichi",
+  "author": "tonycwu",
   "bugs": {
-    "url": "https://github.com/seikichi/tiff.js/issues"
+    "url": "https://github.com/tonycwu/browser-tiff.js/issues"
   },
   "dependencies": {},
   "devDependencies": {},
@@ -12,13 +12,14 @@
     "tiff.js",
     "tiff.min.js"
   ],
-  "homepage": "https://github.com/seikichi/tiff.js",
+  "homepage": "https://github.com/tonycwu/browser-tiff.js",
   "keywords": [
     "conversion",
     "image",
-    "tiff"
+    "tiff",
+    "browser-tiff"
   ],
   "license": "SEE LICENSE IN LICENSE",
   "main": "tiff.min.js",
-  "repository": "github:seikichi/tiff.js"
+  "repository": "github:tonycwu/browser-tiff.js"
 }
